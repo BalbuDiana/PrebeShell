@@ -46,9 +46,6 @@ while [ "$comando" != "salir" ]; do
 	echo -ne $prompt
 	read -e comando
 
-	if [ "$comando" == "segundo" ]; then
-		bash $PWD/calledScript.sh
-	fi
 
 	carpeta=`echo $comando | grep "cd" -o`
 	if [ "$carpeta" == "cd" ]; then
