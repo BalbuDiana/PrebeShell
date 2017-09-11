@@ -70,6 +70,7 @@ while [ "$salir" == 0 ]; do
 		3) #Salir del juego
 			opc=0
 			salir=1
+			bash $PWD/base.sh
 			;;
 		*)
 			opc=0
