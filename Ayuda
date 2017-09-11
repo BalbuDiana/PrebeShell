@@ -1,0 +1,20 @@
+#!/bin/bash
+#jelp
+
+echo "Menú de ayuda"
+	echo -e "\n\t\e[0;31mfecha \t \e[0;3mmuestra la fecha a 'tiempo real'"
+	echo -e "\n\t\e[0;32mhora \t \e[0;3mmuestra la hora a 'tiempo real'"
+	echo -e "\n\t\e[0;33marbol \t \e[0;3mmuestra un arbol de las archivos del sitema"
+	echo -e "\n\t\e[0;34mcreditos \t \e[0;3mdespliega los nombres de los realizadores del codigo"
+	echo -e "\n\t\e[0;35minfosis \t\e[0;3m muestra la informacion del sistema a tiempo real"
+	echo -e "\n\t\e[0;36mppt \t \e[0;3mte permite ingresar al juego piedra papel o tijera"
+	echo -e "\n\t\e[0;37mbuscar \t\e[0;3m este comando te permite buscar archivos por medio de su nombre y su ruta"
+	echo -e "\n\t\e[0;31mprebeplayer \t\e[0;3m comando para ingresar al reproductor"
+	echo -e "\n\t\e[0;32mahorcado \t \e[0;3mte permite ingresar al juego ahorcado"
+	echo -e "\n\t\e[0;33mmagic \t \e[0;3mte permite ingresar al juego 'Numero magico'"
+	echo -e "\n\t\e[0;34mlogin \t\e[0;3m puedes ingresar como otro usuario, valida contraseñas"
+	echo -e "\n\t\e[0;35msalir \t\e[0;3m comando para terminar el proceso prebeshell"
+	echo -e "\n\t\e[0;36mayuda \t \e[0;3mdespliega las posibles opciones del prebeshell y una breve descripcion"
+	echo -e "\e[0;39m"
+
+
