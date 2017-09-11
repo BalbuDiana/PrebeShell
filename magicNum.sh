@@ -1,5 +1,5 @@
 #!/bin/bash
-while [ "$OPC" != "4" ];do
+while [ "$opGet" != "4" ];do
 magicNum=$(shuf -i 1-1000 -n 1) #Genera número aleatorio
 numGet=0
 opGet=0
