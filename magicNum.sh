@@ -1,4 +1,6 @@
 #!/bin/bash
+
+printf "\033c"		#limpia pantalla
 while [ "$opGet" != "4" ];do
 magicNum=$(shuf -i 1-1000 -n 1) #Genera número aleatorio
 numGet=0
@@ -21,7 +23,7 @@ read opGet
 
 case $opGet in
 
-
+printf "\033c"		#limpia pantalla
 1) 
 while [ $opGet -le 5 ]
 	do
