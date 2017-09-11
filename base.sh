@@ -21,6 +21,7 @@ Prebeshell()
 	read -s password
 
 	####Archivo .sh que se usa para poder obtener lo de los usuarios 
+	bash $PWD/desencripta.sh $usuario $password
 
 	if [ $? -eq 0 ]; then
 		intentos=3
