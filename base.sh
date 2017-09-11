@@ -60,38 +60,38 @@ while [ "$comando" != "salir" ]; do
 		;;
 
 		'arbol')
-			
+			bash $PWD/arbol.sh
 		;;
 
 		'hora')
-			
+			bash $PWD/hora.sh
 		;;
 
 		'creditos')
-			
+			bash $PWD/creditos.sh
 		;;
 
 		'salir')
 		;;
 
 		'infosis')
-			
+			bash $PWD/info.sh
 		;;
 
 		'ayuda')
-			
+			bash $PWD/aiuda.sh
 		;;
 
 		'ahorcado')
-			bash $PWD/#nombre del .sh
+			bash $PWD/ahorcadoestelar.sh
 		;;
 
 		'magic')
-			
+			bash $PWD/magicNum.sh
 		;;
     
-    'ppt')
-			
+    		'ppt')
+			bash $PWD/ppt.sh
 		;;
 
 		'infosis')
