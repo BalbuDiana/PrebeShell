@@ -75,7 +75,7 @@ while [ "$comando" != "salir" ]; do
 		;;
 
 		'infosis')
-			bash $PWD/info.sh
+			bash $PWD/infsys.sh
 		;;
 
 		'ayuda')
