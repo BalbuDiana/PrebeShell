@@ -92,18 +92,13 @@ while [ "$comando" != "salir" ]; do
 			bash $PWD/ppt.sh
 		;;
 
-		'infosis')
-			
-		
-		;;
-
 		'buscar')
 			echo -n "Indique el nombre del archivo: "
 			read -e nombreArchivo
 			echo -n "Ruta[default: $PWD]: "
 			read -e rutaArchivo
 
-			bash $PWD/buscararchivo.sh $nombreArchivo $rutaArchivo
+			bash $PWD/buscarArchivo.sh $nombreArchivo $rutaArchivo
 		;;
 
 		'prebeplayer')
@@ -119,7 +114,7 @@ while [ "$comando" != "salir" ]; do
 			echo -n -e "Contrasenia:"
 			read -s nuevoPassword
 
-			bash $PWD/login.sh $nuevoUsuario $nuevoPassword
+			bash $PWD/desencripta.sh $nuevoUsuario $nuevoPassword
 
 			if [ $? -eq 0 ]; then
 				usuario=$nuevoUsuario
