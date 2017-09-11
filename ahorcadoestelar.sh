@@ -252,6 +252,7 @@ while [ "$salir" == 0 ]; do
 		3) #Salir 
 			op=0
 			salir=1
+			bash $PWD/base.sh
 			;;
 		*)
 			op=0
