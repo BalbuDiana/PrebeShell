@@ -7,3 +7,5 @@ echo "Creditos"
 echo "La pequeña Jenny"
 echo "Jordy Pazaran"
 echo "Balbuena"
+
+echo "La pura buena onda :)"
