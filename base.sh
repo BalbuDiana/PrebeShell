@@ -59,12 +59,12 @@ while [ "$comando" != "salir" ]; do
 			bash $PWD/fecha.sh
 		;;
 
-		'arbol')
-			bash $PWD/arbol.sh
-		;;
-
 		'hora')
 			bash $PWD/hora.sh
+		;;
+		
+		'arbol')
+			bash $PWD/arbol.sh
 		;;
 
 		'creditos')
