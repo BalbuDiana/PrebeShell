@@ -25,4 +25,3 @@ echo -e "Memoria total: $FreeMem"
 echo -e "Memoria swap: $Swap"
 echo -e "La versión del kernel es: $kernel "
 echo -e "El modelo del procesador es:$Procesador"
-
