@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# opciones del sistema
+
+FreeMem=`cat /proc/meminfo | grep "MemFree" | grep "[1-9].*" -o`
+memSwap=`cat /proc/meminfo | grep "SwapTotal" | grep "[1-9].*" -o`
+kernel=`cat /proc/version | awk {'print $3$4'}`
+Procesador=`cat /proc/cpuinfo | grep "model name"`
+TotalMemory=`cat /proc/meminfo | grep "MemTotal" `
+
+
+echo -e "I N F O R M A C I O N   D E L   S I S T E M A"
+
+echo "."
+sleep 0.30 
+echo "."
+sleep 0.30 
+echo "."
+sleep 0.30 
+echo "L I S T O "
+echo -e "Sistema operativo es: `cat /proc/sys/kernel/ostype`"
+echo -e "Distribución del sistema es: $az`cat /proc/version_signature`$r"
+echo -e "Memoria libre: $TotalMemory" 
+echo -e "Memoria total: $FreeMem" 
+echo -e "Memoria swap: $Swap"
+echo -e "La versión del kernel es: $kernel "
+echo -e "El modelo del procesador es:$Procesador"
+
